@@ -1,3 +1,4 @@
+#Análise de custos de produtos, valor de compra, imposto, frete taxa operacional
 #
 import pandas as pd
 import numpy as np
@@ -56,4 +57,10 @@ print('\nMenores: ')
 #df_menores = df_planilhas_custos[df_planilhas_custos['Custo Total (R$)'] < q1]
 print(df_planilhas_custos[df_planilhas_custos['Custo Total (R$)'] < q1])
 
+print(100*'-')
+
+#q2 = Mediana
+
+print('\nMaiores: ') 
 print(df_planilhas_custos[df_planilhas_custos['Custo Total (R$)'] > q3])
+
